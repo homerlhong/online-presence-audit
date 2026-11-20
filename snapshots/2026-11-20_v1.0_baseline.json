@@ -96,6 +96,19 @@
       "hits_total": 13,
       "hits_about_subject": 11,
       "note": "2 marine-ecology papers (2025, 2026) belong to a different author"
+    },
+    {
+      "id": "Q12",
+      "query": "Leo Hong GitHub 全网 信息 洪礼传",
+      "engine": "WebSearch-extended",
+      "hits_about_subject": 0,
+      "note": "no viral post found"
+    },
+    {
+      "id": "Q13",
+      "query": "github \"Lichuan Hong\" OR \"leohong\" OR \"homerlhong\"",
+      "engine": "WebSearch-extended",
+      "hits_about_subject": 2
     }
   ],
   "pubmed_attributed": [
@@ -194,17 +207,22 @@
       "name": "Homer Ho / Homer Cheung / Homer Tien",
       "who": "unrelated people",
       "risk": "Homer Hong has no professional footprint"
+    },
+    {
+      "name": "Leo Hong (leohong.dev)",
+      "who": "software developer, Fredericton NB",
+      "risk": "shares 'Leo Hong' + Canada"
     }
   ],
   "third_party_profiles_found": {
     "orcid": false,
     "linkedin_public": false,
-    "github": false,
+    "github": true,
     "google_scholar": false
   },
   "kpis": {
     "site_indexed": false,
-    "queries_with_subject_hit": "2/11",
+    "queries_with_subject_hit": "3/13",
     "post_2020_career_visible_off_site": false,
     "pubmed_papers_attributed": 11,
     "publications_claimed_on_site": 14
@@ -212,13 +230,13 @@
   "github_account": {
     "handle": "homerlhong",
     "exists": true,
-    "found_by_web_search": false,
+    "found_by_web_search": true,
     "public_repos_relevant": [
       "crs-summary-iss-simulated",
       "RWEAssessment",
       "pituitary-gh-pitnet-research",
       "toronto-ed-hotspots-live"
     ],
-    "note": "Account exists with public portfolio repos but no search query surfaced it; not linked from indexed pages."
+    "note": "Extended search surfaced pituitary-gh-pitnet-research and toronto-ed-hotspots-live; standard queries did not."
   }
 }

@@ -8,7 +8,7 @@ Findings
 - Site claims 14 publications; 11 on PubMed + 1 (2009 PUMC journal) = 12 located.
 - Name collision: Lichan Hong (Google CS) dominates English-name results.
 - "Homer Hong": no professional footprint.
-- GitHub account `homerlhong` exists with public portfolio repos, but no web search surfaced it.
+- GitHub account `homerlhong` exists with public portfolio repos, surfaced only by extended search (Q13).
 
 Planned fixes (to verify in v1.1)
 - [ ] robots.txt → `Allow: /` + sitemap

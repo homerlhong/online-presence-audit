@@ -13,7 +13,7 @@ Each snapshot re-runs the same query set (Q01–Q11) so results are comparable o
 | KPI | v1.0 (2026-11-20) | Target |
 |---|---|---|
 | leohong.ca indexed | No | Yes |
-| Queries with a hit about me | 2/11 | ≥8/11 |
+| Queries with a hit about me | 3/13 | ≥10/13 |
 | Post-2020 career visible off-site | No | Yes |
 | PubMed papers attributed | 11 | 11 (+ ORCID-linked) |
 | ORCID / public LinkedIn / GitHub | None | All three |
