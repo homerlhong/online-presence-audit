@@ -3,6 +3,11 @@
 Version-controlled snapshots of what search engines and AI tools can find about me.
 Each snapshot re-runs the same query set (Q01–Q11) so results are comparable over time.
 
+## Contents
+- `PROFILE.md` — consolidated public record (v1.0)
+- `snapshots/` — machine-readable query results per version
+- `sources/` — external reports used as inputs (e.g. multi-AI test, 2026-11-20)
+
 ## Workflow
 1. Make a fix (e.g. robots.txt, ORCID, LinkedIn).
 2. Log it in `CHANGELOG.md`.
