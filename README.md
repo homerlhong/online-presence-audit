@@ -1,12 +1,13 @@
 # Lichuan (Leo / Homer) Hong 洪礼传 — Public Record
 
-**Version:** v2.1 · 2026-11-20 · LinkedIn located
+**Version:** v2.2 · 2026-11-20 · LinkedIn name-collision check
 Website: [leohong.ca](https://leohong.ca/) · GitHub: [@homerlhong](https://github.com/homerlhong)
 
 Each version of this README is one commit; compare any two with `git diff <old> <new> -- README.md`.
 
 | Version | Date | Summary |
 |---|---|---|
+| v2.2 | 2026-11-20 | Correction: LinkedIn shows the searcher's own profile first ("You"), so #1 is not a true ranking. "Leo Hong" has 8+ other LinkedIn profiles in Canada; "Lichuan Hong" is the more distinctive name. |
 | v2.1 | 2026-11-20 | LinkedIn profile located (#1 in LinkedIn's own search for "lichuan hong"); not surfaced by web search. |
 | v2.0 | 2026-11-20 | leohong.ca opened to search engines and AI search (robots.txt, X-Robots-Tag, meta robots fixed; sitemap added). Indexing pending. |
 | v1.0 | 2026-11-20 | Baseline. Site blocked by robots.txt; 3/13 search queries hit; 11 PubMed papers verified. |
@@ -57,7 +58,7 @@ Plus 2009 PUMC journal paper (as Li-chuan Hong) [V]. The website claims 14; 12 l
 |---|---|
 | [leohong.ca](https://leohong.ca/) | **v2.0: open to crawlers.** robots.txt `Allow: /` + [sitemap](https://leohong.ca/sitemap.xml); page-level `noindex` removed; PDFs (credentials, résumé, cover letter) kept `noindex`. Not yet indexed (v1.0: fully blocked). |
 | GitHub `homerlhong` | Public repos indexed by search: `pituitary-gh-pitnet-research` (simulated-data GH-PitNET prediction prototype, TRIPOD+AI), `toronto-ed-hotspots-live`; also `crs-summary-iss-simulated`, `RWEAssessment` |
-| LinkedIn | **v2.1:** profile exists — "Lichuan Hong · Senior Statistical Analyst · Greater Toronto Area", ranked #1 in LinkedIn people search for "lichuan hong" (owner's screenshot, 2026-11-20). Not returned by any web search, so the public profile is likely hidden from search engines. |
+| LinkedIn | **v2.1:** profile exists — "Lichuan Hong · Senior Statistical Analyst · Greater Toronto Area", shown first in LinkedIn people search for "lichuan hong" and "Leo hong" (owner's screenshots, 2026-11-20) — **but only because LinkedIn lists the searcher's own profile first; other users will not necessarily see it at the top.** Not returned by any web search, so the public profile is likely hidden from search engines. |
 | ORCID / Google Scholar | Not found |
 | This record | [homerlhong/online-presence-audit](https://github.com/homerlhong/online-presence-audit) |
 
@@ -67,7 +68,9 @@ Plus 2009 PUMC journal paper (as Li-chuan Hong) [V]. The website claims 14; 12 l
 ## Not this person [X]
 - Lichan Hong — Google DeepMind/Brain senior research director (recommender systems), Mountain View; also a Lichan Hong at PARC
 - 洪立转 — Yancheng, Jiangsu (construction supervision); different characters
-- Leo Hong (leohong.dev) — software developer, Fredericton, NB
+- Leo Hong (leohong.dev) — software engineer at Cvent, UNB Computer Science, Fredericton, NB
+- Other "Leo Hong" LinkedIn profiles (2026-11-20): University of Toronto student, Toronto; DBA/team lead at Ecom, Toronto; accounting officer at Scotiabank, Mississauga; former LHSC staff, London ON; Listen Labs, US; intern at CMH, Canada
+- Leo Hung — digital marketing consultant, Greater Toronto Area
 - Leo Hong — mechanical engineering professor, Loyola Marymount
 - Lichuan Hong — marine ecology papers, 2025–2026
 - 洪礼传 in a Toronto Peking-opera listing and a Fuzhou aikido notice — unverified, not attributed
@@ -84,6 +87,6 @@ Plus 2009 PUMC journal paper (as Li-chuan Hong) [V]. The website claims 14; 12 l
 | Google Search Console + Bing Webmaster submission | ⏳ pending (owner action) |
 | ORCID with 11 PubMed papers + 2009 PUMC paper | ⏳ |
 | LinkedIn: set public profile visible to search engines; link leohong.ca, GitHub; update headline (Tigermed role ended Jul 2026) | ⏳ |
-| One English name across channels (Leo vs Homer) | ⏳ |
+| One English name across channels — use **Lichuan (Leo) Hong**: "Leo Hong" alone collides with 8+ Canadian profiles | ⏳ |
 | schema.org `Person` JSON-LD with `sameAs` links | ⏳ |
 | Re-run the 13 baseline queries after indexing (→ v2.1) | ⏳ ~2026-12-04 |
