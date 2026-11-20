@@ -1,12 +1,13 @@
 # Lichuan (Leo / Homer) Hong 洪礼传 — Public Record
 
-**Version:** v2.0 · 2026-11-20 · site opened to search
+**Version:** v2.1 · 2026-11-20 · LinkedIn located
 Website: [leohong.ca](https://leohong.ca/) · GitHub: [@homerlhong](https://github.com/homerlhong)
 
 Each version of this README is one commit; compare any two with `git diff <old> <new> -- README.md`.
 
 | Version | Date | Summary |
 |---|---|---|
+| v2.1 | 2026-11-20 | LinkedIn profile located (#1 in LinkedIn's own search for "lichuan hong"); not surfaced by web search. |
 | v2.0 | 2026-11-20 | leohong.ca opened to search engines and AI search (robots.txt, X-Robots-Tag, meta robots fixed; sitemap added). Indexing pending. |
 | v1.0 | 2026-11-20 | Baseline. Site blocked by robots.txt; 3/13 search queries hit; 11 PubMed papers verified. |
 
@@ -56,14 +57,16 @@ Plus 2009 PUMC journal paper (as Li-chuan Hong) [V]. The website claims 14; 12 l
 |---|---|
 | [leohong.ca](https://leohong.ca/) | **v2.0: open to crawlers.** robots.txt `Allow: /` + [sitemap](https://leohong.ca/sitemap.xml); page-level `noindex` removed; PDFs (credentials, résumé, cover letter) kept `noindex`. Not yet indexed (v1.0: fully blocked). |
 | GitHub `homerlhong` | Public repos indexed by search: `pituitary-gh-pitnet-research` (simulated-data GH-PitNET prediction prototype, TRIPOD+AI), `toronto-ed-hotspots-live`; also `crs-summary-iss-simulated`, `RWEAssessment` |
-| ORCID / Google Scholar / public LinkedIn | Not found |
+| LinkedIn | **v2.1:** profile exists — "Lichuan Hong · Senior Statistical Analyst · Greater Toronto Area", ranked #1 in LinkedIn people search for "lichuan hong" (owner's screenshot, 2026-11-20). Not returned by any web search, so the public profile is likely hidden from search engines. |
+| ORCID / Google Scholar | Not found |
 | This record | [homerlhong/online-presence-audit](https://github.com/homerlhong/online-presence-audit) |
 
 ## AI-related work
 - The website lists "AI-assisted evidence" as a direction [S]. No named AI model, AI paper, patent or product found.
 
 ## Not this person [X]
-- Lichan Hong — Google computer scientist (recommender systems)
+- Lichan Hong — Google DeepMind/Brain senior research director (recommender systems), Mountain View; also a Lichan Hong at PARC
+- 洪立转 — Yancheng, Jiangsu (construction supervision); different characters
 - Leo Hong (leohong.dev) — software developer, Fredericton, NB
 - Leo Hong — mechanical engineering professor, Loyola Marymount
 - Lichuan Hong — marine ecology papers, 2025–2026
@@ -80,7 +83,7 @@ Plus 2009 PUMC journal paper (as Li-chuan Hong) [V]. The website claims 14; 12 l
 | Remove site-wide `X-Robots-Tag: noindex` and page `meta noindex` | ✅ |
 | Google Search Console + Bing Webmaster submission | ⏳ pending (owner action) |
 | ORCID with 11 PubMed papers + 2009 PUMC paper | ⏳ |
-| Public LinkedIn linked to leohong.ca, ORCID, GitHub | ⏳ |
+| LinkedIn: set public profile visible to search engines; link leohong.ca, GitHub; update headline (Tigermed role ended Jul 2026) | ⏳ |
 | One English name across channels (Leo vs Homer) | ⏳ |
 | schema.org `Person` JSON-LD with `sameAs` links | ⏳ |
 | Re-run the 13 baseline queries after indexing (→ v2.1) | ⏳ ~2026-12-04 |
