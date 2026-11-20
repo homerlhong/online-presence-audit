@@ -1,0 +1,50 @@
+name: Lichuan Hong public-record monitor
+
+on:
+  schedule:
+    - cron: "17 13 * * 1"   # Mondays 13:17 UTC (08:17 Toronto)
+  workflow_dispatch: {}      # run manually from the Actions tab
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run checks
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python monitor/check.py
+
+      - name: Commit and push if anything changed
+        id: commit
+        run: |
+          git config user.name  "lichuan-hong-monitor[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md monitor/state.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            VERSION=$(grep -oP '\*\*Version:\*\* \Kv[0-9]+\.[0-9]+' README.md | head -1)
+            git commit -m "$VERSION: auto-update from weekly monitor"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Open an Issue (sends you an email/app notification)
+        if: steps.commit.outputs.changed == 'true' && hashFiles('monitor/changes.md') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "Lichuan Hong: new public-record update ($(date +%F))" \
+            --body-file monitor/changes.md \
+            --assignee homerlhong
