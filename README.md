@@ -90,3 +90,17 @@ Plus 2009 PUMC journal paper (as Li-chuan Hong) [V]. The website claims 14; 12 l
 | One English name across channels — use **Lichuan (Leo) Hong**: "Leo Hong" alone collides with 8+ Canadian profiles | ⏳ |
 | schema.org `Person` JSON-LD with `sameAs` links | ⏳ |
 | Re-run the 13 baseline queries after indexing (→ v2.1) | ⏳ ~2026-12-04 |
+
+<!-- AUTO:START (written by monitor/check.py — do not edit by hand) -->
+## Auto-monitor (weekly)
+Last checked: **2026-11-24**
+
+| Source | Current |
+|---|---|
+| PubMed (`Hong Lichuan` / `Hong Li-chuan` / `Lichuan H`) | 14 records |
+| OpenAlex works, any field (Lichuan / Li-chuan / Leo / Homer Hong, 洪礼传) | 350 |
+| ORCID records named Lichuan Hong | 2 |
+| leohong.ca robots.txt blocks all | False |
+| leohong.ca sitemap URLs | error: ParseError |
+| GitHub @homerlhong public repos | 12 |
+<!-- AUTO:END -->
